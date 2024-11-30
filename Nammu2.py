@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 # Load data with error handling
 try:
-    df1 = pd.read_csv("paneldata.csv")
+    df1 = pd.read_csv("https://drive.google.com/file/d/1npDDKLP8GYH_Zg0qtOb4VD0pRenTNL71/view?usp=sharing")
     df2 = pd.read_csv("World bank_countries.csv")
 except FileNotFoundError:
     st.error("One or more of the required files (paneldata.csv, World bank_countries.csv) are missing. Please upload them.")
